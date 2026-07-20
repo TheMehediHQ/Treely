@@ -8,28 +8,28 @@ const promotions = [
     title: "Summer Plant Sale - Up to 50% Off",
     description:
       "Get your favorite indoor and outdoor plants at amazing discounts this summer season.",
-    img: "https://freedesignfile.com/upload/2020/07/Summer-sale-up-to-50-off-Green-Background-Vector.jpg",
+    img: "/src/assets/summer-sale-up-50-percent-off-social-media-post-template_47987-14194.avif",
   },
   {
     id: 2,
     title: "Buy 2 Get 1 Free on Succulents",
     description:
       "Decorate your space with beautiful succulents. Buy two and get one absolutely free!",
-    img: "https://www.thefoodstatecompany.com/content/images/thumbs/0001088_900.jpeg",
+    img: "/src/assets/0001088_900.jpeg",
   },
   {
     id: 3,
     title: "Free Shipping on Orders Over $50",
     description:
       "Shop now and enjoy free shipping on all orders over $50. Limited time offer!",
-    img: "https://st5.depositphotos.com/82875930/69062/v/450/depositphotos_690621590-stock-illustration-free-shipping-all-orders-tag.jpg",
+    img: "/src/assets/depositphotos_690621590-stock-illustration-free-shipping-all-orders-tag.jpg",
   },
   {
     id: 4,
     title: "Exclusive Gift Packs for Plant Lovers",
     description:
       "Surprise your loved ones with curated gift packs that include plants and accessories.",
-    img: "https://www.paloverdebotanicals.com/cdn/shop/files/Paloverde-Custom-Gift-Boxes.jpg?v=1683484220&width=1920",
+    img: "/src/assets/Paloverde-Custom-Gift-Boxes.webp",
   },
 ];
 

@@ -33,7 +33,7 @@ const TestimonialsSection = () => {
     <section className="rounded-2xl mx-auto px-4 py-16 transition-colors duration-300">
       <div className="text-center mb-14">
         <Motion.h2 
-          className="text-4xl md:text-5xl font-extrabold text-emerald-700 dark:text-emerald-400 tracking-tight mb-4"
+          className="text-3xl md:text-4xl font-extrabold text-emerald-700 dark:text-emerald-400"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
