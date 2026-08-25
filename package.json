@@ -2,18 +2,54 @@
   "name": "trelly",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "dev:server": "node api/index.js"
+  },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.6.0",
+    "@stianlarsen/border-beam": "^1.0.11",
+    "@tailwindcss/vite": "^4.1.7",
+    "axios": "^1.9.0",
     "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "mongodb": "^6.16.0"
+    "firebase": "^11.7.3",
+    "framer-motion": "^12.19.1",
+    "gsap": "^3.14.2",
+    "mongodb": "^6.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^5.5.0",
+    "react-loading-indicators": "^1.0.1",
+    "react-router-dom": "^7.6.0",
+    "react-toastify": "^11.0.5",
+    "react-tooltip": "^5.28.1",
+    "recharts": "^3.7.0",
+    "styled-components": "^6.1.18",
+    "sweetalert2": "^11.21.2",
+    "swiper": "^11.2.7"
   },
-  "scripts": {
-    "dev": "bun run --filter '@trelly/client' dev",
-    "build": "bun run --filter '@trelly/client' build",
-    "dev:server": "node api/index.js"
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.0.35",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
   }
 }
