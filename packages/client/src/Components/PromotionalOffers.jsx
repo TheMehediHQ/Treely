@@ -1,6 +1,10 @@
 
 import React from "react";
 import { motion as Motion } from "framer-motion";
+import summerSaleImg from "../assets/summer-sale-up-50-percent-off-social-media-post-template_47987-14194.avif";
+import succulentsImg from "../assets/0001088_900.jpeg";
+import freeShippingImg from "../assets/depositphotos_690621590-stock-illustration-free-shipping-all-orders-tag.jpg";
+import giftBoxesImg from "../assets/Paloverde-Custom-Gift-Boxes.webp";
 
 const promotions = [
   {
@@ -8,28 +12,28 @@ const promotions = [
     title: "Summer Plant Sale - Up to 50% Off",
     description:
       "Get your favorite indoor and outdoor plants at amazing discounts this summer season.",
-    img: "/src/assets/summer-sale-up-50-percent-off-social-media-post-template_47987-14194.avif",
+    img: summerSaleImg,
   },
   {
     id: 2,
     title: "Buy 2 Get 1 Free on Succulents",
     description:
       "Decorate your space with beautiful succulents. Buy two and get one absolutely free!",
-    img: "/src/assets/0001088_900.jpeg",
+    img: succulentsImg,
   },
   {
     id: 3,
     title: "Free Shipping on Orders Over $50",
     description:
       "Shop now and enjoy free shipping on all orders over $50. Limited time offer!",
-    img: "/src/assets/depositphotos_690621590-stock-illustration-free-shipping-all-orders-tag.jpg",
+    img: freeShippingImg,
   },
   {
     id: 4,
     title: "Exclusive Gift Packs for Plant Lovers",
     description:
       "Surprise your loved ones with curated gift packs that include plants and accessories.",
-    img: "/src/assets/Paloverde-Custom-Gift-Boxes.webp",
+    img: giftBoxesImg,
   },
 ];
 
