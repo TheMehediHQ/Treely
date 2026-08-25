@@ -8,7 +8,7 @@ const TestimonialsSection = () => {
       name: 'Sarah Johnson',
       role: 'Plant Enthusiast',
       image: '👩‍🦰',
-      comment: 'Plant Care Tracker has transformed how I manage my 30+ plants. The reminders are lifesavers!',
+      comment: 'Treely Tracker has transformed how I manage my 30+ plants. The reminders are lifesavers!',
       rating: 5
     },
     {

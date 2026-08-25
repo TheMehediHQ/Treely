@@ -60,7 +60,7 @@ const FeaturesSection = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          Everything you need to become a plant care expert
+          Everything you need to become a Treely expert
         </Motion.p>
       </div>
       

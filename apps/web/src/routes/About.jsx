@@ -28,7 +28,7 @@ const About = () => {
         </p>
 
         <p>
-          Our mission is to make plant care simple, joyful, and rewarding. With expert-curated tips,
+          Our mission is to make Treely simple, joyful, and rewarding. With expert-curated tips,
           plant tracking tools, watering reminders, and a thriving plant-lover community, PlantCare
           helps you build a greener, healthier living space.
         </p>

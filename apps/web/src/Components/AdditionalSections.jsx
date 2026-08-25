@@ -26,7 +26,7 @@ const AdditionalSections = () => {
           Beginner-Friendly Plants
         </h2>
         <p className="text-gray-700 dark:text-gray-300 max-w-xl mx-auto mb-12 text-lg">
-          Start your plant care journey with these hassle-free and rewarding green companions.
+          Start your Treely journey with these hassle-free and rewarding green companions.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">

@@ -5,7 +5,7 @@ export default function HeroVideo() {
   return (
     <section
       className="relative w-full h-[45vh] sm:h-[50vh] md:h-[80vh] lg:h-[90vh] max-h-screen overflow-hidden shadow-2xl mt-6"
-      aria-label="Hero Section: Plant Care App"
+      aria-label="Hero Section: Treely App"
     >
       {/* Background video */}
       <video
@@ -27,7 +27,7 @@ export default function HeroVideo() {
           Nurture Your Greens
         </h1>
         <p className="mt-4 text-gray-400 font-light drop-shadow-sm max-w-2xl text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
-          Track every watering, mist, and feed with ease – your complete plant care companion.
+          Track every watering, mist, and feed with ease – your complete Treely companion.
         </p>
       </div>
     </section>

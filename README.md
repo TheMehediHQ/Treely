@@ -1,6 +1,6 @@
 # Treely
 
-A plant care management app — track your plants, get care guides, and manage your collection.
+A Treely management app — track your plants, get care guides, and manage your collection.
 
 ## Tech Stack
 

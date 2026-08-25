@@ -44,7 +44,7 @@ const TopMistakesSection = () => {
     >
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-extrabold text-emerald-700 dark:text-emerald-400 tracking-wide">
-          Top Plant Care Mistakes
+          Top Treely Mistakes
         </h2>
         <p className="text-gray-700 dark:text-gray-400 mt-3 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
           Avoid these common pitfalls to keep your plants healthy and thriving.

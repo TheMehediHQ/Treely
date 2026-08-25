@@ -30,7 +30,7 @@ const CTASection = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          Start Your Plant Care Journey Today
+          Start Your Treely Journey Today
         </Motion.h2>
         
         <Motion.p 
@@ -40,7 +40,7 @@ const CTASection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Join thousands of plant lovers managing their green space with Plant Care Tracker. 
+          Join thousands of plant lovers managing their green space with Treely Tracker. 
           It's free, easy to use, and your plants will thank you!
         </Motion.p>
         

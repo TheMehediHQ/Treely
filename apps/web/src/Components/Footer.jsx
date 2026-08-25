@@ -22,7 +22,7 @@ const Footer = () => {
           </Link>
           <p className="text-sm text-green-800 dark:text-green-200">
             Empowering plant lovers to nurture healthier greenery. Manage your
-            plant care routines with intelligent tracking and timely reminders.
+            Treely routines with intelligent tracking and timely reminders.
           </p>
         </div>
 

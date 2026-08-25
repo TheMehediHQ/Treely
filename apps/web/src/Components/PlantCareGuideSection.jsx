@@ -59,7 +59,7 @@ const PlantCareGuideSection = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Plant Care Guide
+          Treely Guide
         </Motion.h2>
         <Motion.p 
           className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed"
