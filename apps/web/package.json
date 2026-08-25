@@ -2,6 +2,8 @@
   "name": "@trelly/web",
   "version": "1.0.0",
   "private": true,
+  "description": "Trelly frontend — React + Vite plant care dashboard",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

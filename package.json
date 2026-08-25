@@ -2,6 +2,12 @@
   "name": "trelly",
   "version": "1.0.0",
   "private": true,
+  "description": "Trelly — a plant care tracking and management web application",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMehediHQ/Treely.git"
+  },
+  "license": "MIT",
   "packageManager": "bun@1.3.14",
   "workspaces": ["apps/*"],
   "scripts": {

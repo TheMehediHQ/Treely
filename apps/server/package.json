@@ -2,6 +2,8 @@
   "name": "@trelly/server",
   "version": "1.0.0",
   "private": true,
+  "description": "Trelly backend — Express API for plant management",
+  "license": "MIT",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
