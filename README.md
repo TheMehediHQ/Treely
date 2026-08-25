@@ -4,36 +4,40 @@ A plant care management app — track your plants, get care guides, and manage y
 
 ## Tech Stack
 
-- **Client:** React 19, Vite, Tailwind CSS 4, DaisyUI, Framer Motion, GSAP, Firebase Auth
-- **Server:** Express 5, MongoDB, deployed on Vercel
+- **Frontend:** React 19, Vite, Tailwind CSS 4, DaisyUI, Framer Motion, GSAP, Firebase Auth
+- **Backend:** Express 5, MongoDB
+- **Monorepo:** Turborepo + npm workspaces
+- **Deployment:** Vercel (frontend + API)
 
 ## Project Structure
 
 ```
 trelly/
-├── packages/
-│   ├── client/   # React + Vite frontend (Firebase hosting)
-│   └── server/   # Express API (Vercel)
-├── package.json  # Workspace root (Bun)
-└── bun.lock
+├── apps/
+│   ├── web/           # React + Vite frontend
+│   └── server/        # Express API
+├── api/               # Vercel serverless entry point
+├── package.json       # Workspace root
+├── turbo.json         # Build orchestration
+└── vercel.json        # Vercel deployment config
 ```
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Bun](https://bun.sh)
 - Node.js 18+
+- npm (or bun/pnpm)
 
 ### Install
 
 ```bash
-bun install
+npm install
 ```
 
 ### Environment Variables
 
-Create a `.env` file in `packages/server/`:
+Create a `.env` file in `apps/server/`:
 
 ```
 NAME=<mongodb_username>
@@ -43,22 +47,22 @@ PASS=<mongodb_password>
 ### Run Locally
 
 ```bash
-# Start both client and server
-bun run dev
+# Start both apps
+npm run dev
 
 # Or individually
-bun run dev:client
-bun run dev:server
+npm run dev:web       # frontend only
+npm run dev:server    # backend only
 ```
 
-- Client: http://localhost:5173
-- Server: http://localhost:5000
+- Frontend: http://localhost:5173
+- Backend: http://localhost:5000
 
 ### Build
 
 ```bash
-bun run build:client
-bun run build:server
+npm run build         # build all
+npm run build:web     # build frontend only
 ```
 
 ## API Endpoints
@@ -73,5 +77,6 @@ bun run build:server
 
 ## Deployment
 
-- **Client** → Firebase Hosting (see `.github/workflows/`)
-- **Server** → Vercel (see `packages/server/vercel.json`)
+Everything deploys to **Vercel** from a single project:
+- Frontend → static build from `apps/web/dist`
+- API → serverless function from `api/`
