@@ -5,7 +5,6 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../context/Provider/AuthProvider";
 // import { Tooltip } from "react-tooltip";
 import { FiLogOut } from "react-icons/fi";
-import { FaLeaf } from "react-icons/fa";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import SimpleThemeToggle from "./DarkModeSidebar";
 import Swal from "sweetalert2";
@@ -139,16 +138,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14 sm:h-16">
           {/* Logo */}
-          <div className="flex items-center gap-1.5 sm:gap-2 text-xl sm:text-2xl font-bold text-green-700 dark:text-green-400 flex-shrink-0">
-            <FaLeaf size={20} className="sm:text-2xl" />
-            <Link
-              to="/"
-              className="hover:text-green-600 dark:hover:text-green-300 transition duration-300 hidden sm:inline"
-              aria-label="Go to Home"
-            >
-              PlantCare
-            </Link>
-          </div>
+          <Link to="/" className="flex-shrink-0" aria-label="Go to Home">
+            <img src="/nav.png" alt="PlantCare" className="h-10 sm:h-12 w-auto object-contain" />
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex lg:space-x-8 lg:flex-1 lg:justify-center">

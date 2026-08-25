@@ -1,5 +1,5 @@
 
-import { FaFacebookF, FaInstagram, FaTwitter, FaLeaf } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -13,12 +13,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand Info */}
         <div>
-          <Link
-            to="/"
-            className="flex items-center gap-2 text-2xl font-bold text-green-700 dark:text-green-300 mb-4"
-          >
-            <FaLeaf className="text-green-600 dark:text-green-400" />
-            PlantCare
+          <Link to="/" className="inline-flex mb-4" aria-label="Go to Home">
+            <img src="/nav.png" alt="PlantCare" className="h-12 w-auto object-contain" />
           </Link>
           <p className="text-sm text-green-800 dark:text-green-200">
             Empowering plant lovers to nurture healthier greenery. Manage your
