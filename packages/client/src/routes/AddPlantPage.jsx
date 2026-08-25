@@ -13,7 +13,7 @@ const AddPlantPage = () => {
     const form = e.target;
     const formData = Object.fromEntries(new FormData(form));
 
-    fetch('https://project-web-b11-a10-plant-care-serv.vercel.app/plants', {
+    fetch('/plants', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),

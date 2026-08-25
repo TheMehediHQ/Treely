@@ -14,7 +14,7 @@ const PlantDetailsPage = () => {
   const [plant, setPlant] = useState(null);
 
   useEffect(() => {
-    fetch(`https://project-web-b11-a10-plant-care-serv.vercel.app/plants/${id}`)
+    fetch(`/plants/${id}`)
       .then((res) => res.json())
       .then((data) => setPlant(data))
       .catch((err) => console.error("Failed to load plant details:", err));

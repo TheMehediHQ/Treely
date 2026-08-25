@@ -14,7 +14,7 @@ const AllPlantsDashboard = () => {
     const fetchPlants = async () => {
       try {
         const res = await axios.get(
-          "https://project-web-b11-a10-plant-care-serv.vercel.app/plants"
+          "/plants"
         );
         setPlants(res.data);
       } catch (err) {

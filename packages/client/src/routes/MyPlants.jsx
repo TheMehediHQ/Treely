@@ -16,7 +16,7 @@ const MyPlants = () => {
       if (!user?.email) return;
 
       try {
-        const res = await fetch("https://project-web-b11-a10-plant-care-serv.vercel.app/plants");
+        const res = await fetch("/plants");
         const allPlants = await res.json();
         const myPlants = allPlants.filter((plant) => plant.email === user.email);
         setPlants(myPlants);
@@ -39,7 +39,7 @@ const MyPlants = () => {
 
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`https://project-web-b11-a10-plant-care-serv.vercel.app/plants/${id}`, {
+      const res = await fetch(`/plants/${id}`, {
         method: "DELETE",
       });
       if (!res.ok) throw new Error("Delete failed");

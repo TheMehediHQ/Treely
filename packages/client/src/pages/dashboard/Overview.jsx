@@ -31,7 +31,7 @@ const Overview = () => {
   useEffect(() => {
     if (!user?.email) return;
 
-    fetch("https://project-web-b11-a10-plant-care-serv.vercel.app/plants")
+    fetch("/plants")
       .then((res) => res.json())
       .then((data) => {
         const myPlants = data.filter((item) => item.email === user.email);

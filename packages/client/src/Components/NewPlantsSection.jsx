@@ -10,7 +10,7 @@ const NewPlantsSection = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("https://project-web-b11-a10-plant-care-serv.vercel.app/plants")
+    fetch("/plants")
       .then((res) => {
         if (!res.ok) throw new Error("Network response was not ok");
         return res.json();

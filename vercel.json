@@ -4,13 +4,27 @@
     {
       "src": "packages/server/index.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "packages/client/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
     }
   ],
   "routes": [
     {
+      "src": "/plants(.*)",
+      "dest": "packages/server/index.js"
+    },
+    {
+      "src": "/plants-update(.*)",
+      "dest": "packages/server/index.js"
+    },
+    {
       "src": "/(.*)",
-      "dest": "packages/server/index.js",
-      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
+      "dest": "packages/client/dist/$1"
     }
   ]
 }

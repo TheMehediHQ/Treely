@@ -63,7 +63,7 @@ const router = createBrowserRouter([
         path: "update-plant/:id",
         loader: ({ params }) =>
           fetch(
-            `https://project-web-b11-a10-plant-care-serv.vercel.app/plants/${params.id}`
+            `/plants/${params.id}`
           ),
         element: <UpdatePlant />,
       },
