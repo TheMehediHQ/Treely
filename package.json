@@ -12,10 +12,8 @@
     "mongodb": "^6.16.0"
   },
   "scripts": {
-    "dev:server": "bun run --filter '@trelly/server' dev",
-    "dev:client": "bun run --filter '@trelly/client' dev",
-    "build:server": "bun run --filter '@trelly/server' build",
-    "build:client": "bun run --filter '@trelly/client' build",
-    "dev": "bun run --filter '*' dev"
+    "dev": "bun run --filter '@trelly/client' dev",
+    "build": "bun run --filter '@trelly/client' build",
+    "dev:server": "node api/index.js"
   }
 }
